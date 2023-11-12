@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.compusbox.main.dao.DeliveryRecordDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.compusbox.main.entity.DeliveryRecordEntity" id="deliveryRecordMap">
+        <result property="deliveryRecordId" column="delivery_record_id"/>
+        <result property="userId" column="user_id"/>
+        <result property="activityId" column="activity_id"/>
+        <result property="remark" column="remark"/>
+        <result property="deliveryStatus" column="delivery_status"/>
+        <result property="deliveryTime" column="delivery_time"/>
+        <result property="deliveryRecordcol" column="delivery_recordcol"/>
+        <result property="postName" column="post_name"/>
+        <result property="companyName" column="company_name"/>
+        <result property="workPlace" column="work_place"/>
+        <result property="postUrl" column="post_url"/>
+        <result property="recruitmentResponsibility" column="recruitment_responsibility"/>
+        <result property="jobRequirement" column="job_requirement"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+
+</mapper>
