@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.compusbox.main.dao.PersonalCollectionDao">
+<mapper namespace="com.campusbox.main.dao.PersonalCollectionDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.compusbox.main.entity.PersonalCollectionEntity" id="personalCollectionMap">
+    <resultMap type="com.campusbox.main.entity.PersonalCollectionEntity" id="personalCollectionMap">
         <result property="personalCollectionId" column="personal_collection_id"/>
         <result property="userId" column="user_id"/>
         <result property="compusRecruiteactivityId" column="compus_recruiteActivity_id"/>

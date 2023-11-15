@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.campusbox.main.dao.CampusRecruiteActivityDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.campusbox.main.entity.CampusRecruiteActivityEntity" id="campusRecruiteActivityMap">
+        <result property="campusRecruiteactivityId" column="campus_recruiteActivity_id"/>
+        <result property="campusCompanyId" column="campus_company_id"/>
+        <result property="companyName" column="company_name"/>
+        <result property="companyUrl" column="company_url"/>
+        <result property="schoolRecruitmentUrl" column="school_recruitment_url"/>
+        <result property="publicizeDistributeUrl" column="publicize_distribute_url"/>
+        <result property="companyLabel" column="company_label"/>
+        <result property="jobTag" column="job_tag"/>
+        <result property="schoolRecruitmentType" column="school_recruitment_type"/>
+        <result property="remark" column="remark"/>
+        <result property="schoolRecruitmentYear" column="school_recruitment_year"/>
+        <result property="endDate" column="end_date"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+
+</mapper>
