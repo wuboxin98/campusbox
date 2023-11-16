@@ -5,6 +5,7 @@ import java.util.Map;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -39,6 +40,7 @@ public class UserInfoController {
     /**
      * 列表
      */
+    @ApiOperation("用户列表")
     @GetMapping("/list")
     //@RequiresPermissions("main:userinfo:list")
     public R list(@RequestParam Map<String, Object> params){
