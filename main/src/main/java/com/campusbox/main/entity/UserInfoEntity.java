@@ -61,11 +61,11 @@ public class UserInfoEntity implements Serializable {
 	/**
 	 * 邀请码
 	 */
-	private String userInvitationcode;
+	private String userInvitationCode;
 	/**
 	 * 注册码
 	 */
-	private String userRegistrationinvitationcode;
+	private String userRegistrationInvitationCode;
 	/**
 	 * 创建时间
 	 */

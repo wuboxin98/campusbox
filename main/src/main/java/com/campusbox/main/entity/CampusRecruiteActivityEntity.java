@@ -1,5 +1,6 @@
 package com.campusbox.main.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.TableLogic;
@@ -24,8 +25,8 @@ public class CampusRecruiteActivityEntity implements Serializable {
 	/**
 	 * 校招活动id
 	 */
-	@TableId
-	private Integer campusRecruiteactivityId;
+	@TableId(type = IdType.AUTO)
+	private Integer campusRecruiteActivityId;
 	/**
 	 * 校招公司id
 	 */

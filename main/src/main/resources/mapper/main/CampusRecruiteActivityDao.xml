@@ -5,7 +5,7 @@
 
 	<!-- 可根据自己的需求，是否要使用 -->
     <resultMap type="com.campusbox.main.entity.CampusRecruiteActivityEntity" id="campusRecruiteActivityMap">
-        <result property="campusRecruiteactivityId" column="campus_recruiteActivity_id"/>
+        <result property="campusRecruiteActivityId" column="campus_recruite_activity_id"/>
         <result property="campusCompanyId" column="campus_company_id"/>
         <result property="companyName" column="company_name"/>
         <result property="companyUrl" column="company_url"/>

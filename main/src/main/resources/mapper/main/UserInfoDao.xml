@@ -14,8 +14,8 @@
         <result property="userBirthday" column="user_birthday"/>
         <result property="userAvatar" column="user_avatar"/>
         <result property="userSignature" column="user_signature"/>
-        <result property="userInvitationcode" column="user_invitationCode"/>
-        <result property="userRegistrationinvitationcode" column="user_registrationInvitationCode"/>
+        <result property="userInvitationCode" column="user_invitation_code"/>
+        <result property="userRegistrationInvitationCode" column="user_registration_invitation_code"/>
         <result property="creationTime" column="creation_time"/>
         <result property="updateTime" column="update_time"/>
     </resultMap>

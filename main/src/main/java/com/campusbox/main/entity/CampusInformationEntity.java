@@ -53,7 +53,7 @@ public class CampusInformationEntity implements Serializable {
 	/**
 	 * 认证材料文件连接
 	 */
-	private String certificationmaterial;
+	private String certificationMaterial;
 	/**
 	 * 学历
 	 */
