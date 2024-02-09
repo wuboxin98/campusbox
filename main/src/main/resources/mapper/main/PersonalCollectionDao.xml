@@ -7,7 +7,7 @@
     <resultMap type="com.campusbox.main.entity.PersonalCollectionEntity" id="personalCollectionMap">
         <result property="personalCollectionId" column="personal_collection_id"/>
         <result property="userId" column="user_id"/>
-        <result property="compusRecruiteactivityId" column="compus_recruiteActivity_id"/>
+        <result property="compusRecruiteActivityId" column="compus_recruite_activity_id"/>
         <result property="hasDelivered" column="has_delivered"/>
     </resultMap>
 

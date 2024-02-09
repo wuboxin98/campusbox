@@ -33,7 +33,7 @@ public class PersonalCollectionEntity implements Serializable {
 	/**
 	 * 校招活动id
 	 */
-	private Integer campusRecruiteactivityId;
+	private Integer campusRecruiteActivityId;
 	/**
 	 * 已投递
 	 */

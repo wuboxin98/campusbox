@@ -12,7 +12,7 @@
         <result property="researchDirection" column="research_direction"/>
         <result property="lab" column="lab"/>
         <result property="isAuthentication" column="is_authentication"/>
-        <result property="certificationmaterial" column="certificationMaterial"/>
+        <result property="certificationMaterial" column="certification_material"/>
         <result property="educationalBackground" column="educational_background"/>
         <result property="supervisor" column="supervisor"/>
         <result property="entryTime" column="entry_time"/>

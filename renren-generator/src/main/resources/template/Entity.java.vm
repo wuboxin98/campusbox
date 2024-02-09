@@ -29,7 +29,7 @@ public class ${className}Entity implements Serializable {
 	 * $column.comments
 	 */
 	#if($column.columnName == $pk.columnName)
-@TableId
+@TableId(type = IdType.AUTO)
 	#end
 #if($column.columnName == "is_deleted")
 @TableLogic //逻辑删除
